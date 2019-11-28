@@ -1,0 +1,40 @@
+#img-liderazgo {
+    height: 70px;
+    width: 200px;
+}
+
+#lid-principal:hover {
+    filter: saturate(180%);
+}
+
+.texto-descriptivo {
+    font-size: 20px;
+}
+
+.definicion:hover {
+    font-size: 1.35rem;
+    font-weight: 300
+}
+
+.acerca {
+    background-color: #0b2e13 !important;
+}
+
+.img-tipos {
+    width: 350px;
+    height: 250px;
+    align-content: center;
+}
+
+.img-modal {
+    max-width: 500px !important;
+    height: auto;
+    align-self: center;
+}
+
+@media (min-width: 992px) {
+    .masthead-per {
+        padding-top: calc(2rem + 20px);
+        padding-bottom: 2rem
+    }
+}
